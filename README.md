@@ -3,7 +3,7 @@
 > A modern, responsive developer portfolio built with Next.js and TypeScript
 
 <div align="center">
-  <img src="public/og-image.png" alt="Portfolio Profile" width="200" >
+  <img src="public/profile.webp" alt="Portfolio Profile" width="200" >
 </div>
 
 ## ✨ Features
