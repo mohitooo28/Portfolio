@@ -4,7 +4,7 @@ import { HomeIcon, FolderIcon, FileTextIcon } from "lucide-react";
 export const DATA = {
   name: "Mohit Khairnar",
   initials: "MK",
-  url: "https://github.com/mohitooo28/mohitkhairnar",
+  url: "https://www.mohit.codes/",
   location: "Mumbai, India",
   locationLink: "https://www.google.com/maps/place/mumbai",
   description: "Writing code that compiles and jokes that don’t ... mostly :D",

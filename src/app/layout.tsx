@@ -20,12 +20,10 @@ export const metadata: Metadata = {
     default: "mohitooo",
     template: `%s | mohitooo`,
   },
-  description:
-    "Full-stack developer from Mumbai building creative, impactful web and mobile apps.",
+  description: "Coding faster than Verstappen on softs.",
   openGraph: {
     title: "mohitooo",
-    description:
-      "Full-stack developer from Mumbai building creative, impactful web and mobile apps.",
+    description: "Coding faster than Verstappen on softs.",
     url: DATA.url,
     siteName: "mohitooo",
     locale: "en_US",
@@ -42,8 +40,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "mohitooo",
-    description:
-      "Full-stack developer from Mumbai building creative, impactful web and mobile apps.",
+    description: "Coding faster than Verstappen on softs.",
     images: ["/og-image.png"],
   },
   icons: {
