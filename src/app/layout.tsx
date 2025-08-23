@@ -60,7 +60,7 @@ export default function RootLayout({
         <div className="max-w-2xl mx-auto py-12 sm:py-24 px-6">
           <ThemeProvider
             attribute="class"
-            defaultTheme="system"
+            defaultTheme="dark"
             enableSystem
             disableTransitionOnChange
           >

@@ -117,6 +117,42 @@ export const DATA = {
   ],
 
   projects: [
+    // Crafta
+    {
+      title: "Crafta",
+      active: true,
+      description:
+        "An AI-powered website builder that turns natural language into live, editable, full-stack Next.js sites in seconds. Features instant generation, live code editing, AI chat for refinements, secure auth, workspace management, and token-based pricing.",
+      technologies: [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Convex",
+        "Google Gemini AI",
+        "Sandpack",
+        "Google OAuth",
+        "PayPal",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://crafta-gen.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Demo",
+          href: "https://github.com/user-attachments/assets/f85dfd30-e2b5-4a6b-acc8-30cd706cc81d",
+          icon: <Icons.play className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/mohitooo28/Crafta",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/posters/crafta_poster.webp",
+    },
+
     // VelocityAI
     {
       title: "VelocityAI",
@@ -126,7 +162,6 @@ export const DATA = {
       technologies: [
         "Next.js",
         "React",
-        "TypeScript",
         "Tailwind CSS",
         "Supabase",
         "Inngest",
@@ -142,7 +177,7 @@ export const DATA = {
         },
         {
           type: "Demo",
-          href: "https://private-user-images.githubusercontent.com/177295063/473708490-027e8cbd-4a13-4b59-abc9-15f093b30197.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTQ2NDYyMTMsIm5iZiI6MTc1NDY0NTkxMywicGF0aCI6Ii8xNzcyOTUwNjMvNDczNzA4NDkwLTAyN2U4Y2JkLTRhMTMtNGI1OS1hYmM5LTE1ZjA5M2IzMDE5Ny5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODA4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgwOFQwOTM4MzNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zYmQxYzAyODIyYjJmYzUzYzk3ZTA5NTdmZTQ5YmEyMjE3NWM2MGJkZWMyMWQwOTI3YWZlMTgyYjk0NWI0N2Y1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.6uDQ8n8zyrEP6CChqQoC6NB6DZMol-I4D10kCmsNvUY",
+          href: "https://github.com/user-attachments/assets/027e8cbd-4a13-4b59-abc9-15f093b30197",
           icon: <Icons.play className="size-3" />,
         },
         {
@@ -359,39 +394,6 @@ export const DATA = {
         },
       ],
       image: "/posters/docdial_poster.webp",
-    },
-
-    // BrokerSpace
-    {
-      title: "BrokerSpace",
-      active: false,
-      description:
-        "A Flutter real estate app for brokers to share properties, connect, and grow business. Supports Android, iOS, Web, with Firebase backend, real-time chat, location, mandate ads, and 25+ screens.",
-      technologies: [
-        "Flutter",
-        "Dart",
-        "Firebase",
-        "Firestore",
-        "OpenStreetMap",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.brokerspace-cpp.web.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Demo",
-          href: "#",
-          icon: <Icons.play className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/mohitooo28/BrokerSpace",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/posters/brokerspace_poster.webp",
     },
   ],
 } as const;
