@@ -13,7 +13,7 @@ export const DATA = {
 
   avatarUrl: "/profile.webp",
   resumeUrl:
-    "https://drive.google.com/file/d/1SSgLfVQsS5n0mw4G3-81cQXryBm4wRIi/view?usp=drive_link",
+    "https://drive.google.com/file/d/1jCm1r_19_uU9-d3x7u4tx1I00unTfP6V/view?usp=drive_link",
 
   skills: [
     "Python",
@@ -289,7 +289,7 @@ export const DATA = {
         },
         {
           type: "Demo",
-          href: "#",
+          href: "https://github.com/user-attachments/assets/afae955c-6152-49ed-bfe5-88a066431cd9",
           icon: <Icons.play className="size-3" />,
         },
         {
